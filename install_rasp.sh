@@ -154,7 +154,7 @@ sudo apt-get -y install r-base
 # Install system libraries (dependences for some R packages)
 sudo apt-get -y install libssl-dev libcurl4-openssl-dev libboost-atomic-dev
 
-## Uninstall/Reinstall Pandoc (Shouldn't be initially installed)
+## Uninstall/Reinstall Pandoc 
 sudo apt-get -y remove pandoc
 sudo apt-get -y install pandoc
 
